@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="js/carsFunctions.js"></script>
+
+<h1>Cars</h1>
+<table id="cartable">
+    <thead>
+    <td>Name</td>
+    <td>Consumption</td>
+    <td>Color</td>
+    <td>Manufacturer</td>
+    <td>Available</td>
+    <td>Year</td>
+    <td>Horsepower</td>
+    </thead>
+    <tbody></tbody>
+</table>
+<div class="buttonDiv">
+    <input type="button" class="update styledButton" value="Update"/>
+    <input type="button" class="add styledButton" value="Add"/>
+    <input type="button" class="delete styledButton" value="Delete"/>
+</div>
+
+<div class="formDiv">
+    <form method="post">
+        <table class="formTable hidden">
+            <tr class="hidden">
+                <td>Id</td>
+                <td> <input type="text" id="id" placeholder="Automatically generated" readonly> </td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" placeholder="Name" required="required"></td>
+            </tr>
+            <tr>
+                <td>Consumption</td>
+                <td><input type="text" id="consumption" placeholder="Consumption" required="required"></td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>
+                    <select id="color" required="required">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="grey">Grey</option>
+                        <option value="black">Black</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="pink">Disgusting</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Manufacturer</td>
+                <td><select id="manufacturer" required="required">
+                </select>
+                </td>
+            </tr>
+            <td>Available</td>
+            <td><input type="number" id="available" placeholder="0" min="0" required="required"></td>
+            </tr>
+            <td>Year</td>
+            <td><input type="number" id="year" placeholder="2020" min="1950" max="2020" required="required"></td>
+            </tr>
+            <tr>
+                <td>Horsepower</td>
+                <td><input type="number" id="horsepower" placeholder="666" min="200" max="1000" required="required"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="ok" id="ok"></td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="js/manufacturerFunctions.js"></script>
+
+<h1>Manufacturers</h1>
+<table id="manufacturersTable">
+    <thead>
+    <td>Name</td>
+    <td>Country</td>
+    <td>Founded</td>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<div class="buttonDiv">
+    <input type="button" class="update styledButton" value="Update"/>
+    <input type="button" class="add styledButton" value="Add"/>
+    <input type="button" class="delete styledButton" value="Delete"/>
+</div>
+
+<div class="formDiv">
+    <form method="post">
+        <table class="formTable hidden">
+            <tr class="hidden">
+                <td>Id</td>
+                <td> <input type="text" id="id" placeholder="Automatically generated" readonly> </td>
+            </tr>
+
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" placeholder="Name" required="required"></td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td><input type="text" id="country" placeholder="Country" required="required"></td>
+            </tr>
+
+            <tr>
+                <td>Founded</td>
+                <td><input type="date" id="founded" required="required"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="button" value="ok" id="ok"></td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+</html>

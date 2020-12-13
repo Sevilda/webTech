@@ -1,0 +1,122 @@
+html {
+    font-family: Georgia;
+    font-size: large;
+}
+
+body {
+    background-color: lightsteelblue;
+    background-image: url("../images/car_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: slategrey;
+}
+.content {
+    width:inherit;
+    margin: 5%;
+    padding: 15px;
+    background-color: rgba(176, 196, 222, 0.8);
+}
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    opacity: 80%;
+    margin: 30px;
+}
+
+.header a {
+    float: right;
+    color: #f2f2f2;
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: underline;
+}
+
+table {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-collapse: collapse;
+    align-self: center;
+}
+
+
+.styledButton {
+    background-color: steelblue;
+    border:2px solid black;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:20px;
+}
+
+.styledButton:hover {
+    background-color: darkblue;
+}
+
+thead {
+    border-bottom: 5px darkblue solid ;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+td {
+    border: 2px royalblue solid;
+    height: 20px;
+    text-align: center;
+}
+
+.selected {
+    background-color: white;
+    font-weight: bold;
+}
+
+.new {
+    background-color: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttonDiv {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+}
+.formDiv {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    min-width: 300px;
+    background-color: steelblue;
+}
+
+.formTable {
+    border-collapse: collapse;
+    align-self: center;
+}
+.formTable td {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
